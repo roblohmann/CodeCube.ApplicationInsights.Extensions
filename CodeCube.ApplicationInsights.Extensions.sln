@@ -5,7 +5,15 @@ VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeCube.ApplicationInsights.Extensions", "CodeCube.ApplicationInsights.Extensions\CodeCube.ApplicationInsights.Extensions.csproj", "{5C7233E6-E157-496D-B2EB-5203973EB047}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeCube.ApplicationInsights.Extensions.Tests", "CodeCube.ApplicationInsights.Extensions.Tests\CodeCube.ApplicationInsights.Extensions.Tests.csproj", "{0589A1D5-9F1A-47BB-BDBB-A7E9C06A106D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeCube.ApplicationInsights.Extensions.Tests", "CodeCube.ApplicationInsights.Extensions.Tests\CodeCube.ApplicationInsights.Extensions.Tests.csproj", "{0589A1D5-9F1A-47BB-BDBB-A7E9C06A106D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".solution-items", ".solution-items", "{94E4401E-B932-4C73-8A15-43E6063173A5}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		nuget-icon.png = nuget-icon.png
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

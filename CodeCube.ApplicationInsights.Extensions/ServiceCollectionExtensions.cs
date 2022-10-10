@@ -3,7 +3,7 @@ using CodeCube.ApplicationInsights.Extensions.TelemetryInitializers;
 using Microsoft.ApplicationInsights.Extensibility;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace CodeCube.ApplicationInsights.Extensions.Extensions
+namespace CodeCube.ApplicationInsights.Extensions
 {
     public static class ServiceCollectionExtensions
     {

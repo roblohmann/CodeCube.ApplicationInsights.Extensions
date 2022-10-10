@@ -2,8 +2,14 @@
 
 	<PropertyGroup>
 		<TargetFrameworks>netstandard2.1;net6.0</TargetFrameworks>
-		<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
 		<Nullable>enable</Nullable>
+
+		<Authors>Rob Lohmann</Authors>
+		<PackageIconUrl>https://github.com/roblohmann/CodeCube.ApplicationInsights.Extensions/blob/main/nuget-icon.png?raw=true</PackageIconUrl>
+		<PackageProjectUrl>https://github.com/roblohmann/CodeCube.ApplicationInsights.Extensions</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/roblohmann/CodeCube.ApplicationInsights.Extensions</RepositoryUrl>
+		<PackageTags>aspnetcore application insights cloudrolename cloudrole name</PackageTags>
+		<Description>A collection of Telemetry Initializers to help you make better use of Application Insights.</Description>
 	</PropertyGroup>
 
 	<ItemGroup>

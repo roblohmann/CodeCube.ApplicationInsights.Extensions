@@ -36,7 +36,10 @@ jobs:
 #      shell: pwsh
 
     - name: Setup NuGet
-      uses: NuGet/setup-nuget@v1.0.5
+      uses: NuGet/setup-nuget@v1.0.7
+      with:
+        # NuGet version to install. Can be `latest`, `preview`, a concrete version like `5.3.1`, or a semver range specifier like `5.x`.
+        nuget-version: 6.3.0 # optional, default is latest
 
     - name: Restore dependencies
       run: nuget restore $SOLUTION

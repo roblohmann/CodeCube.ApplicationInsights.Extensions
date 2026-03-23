@@ -1,10 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFrameworks>netstandard2.1;net6.0;net7.0;net8.0;net9.0</TargetFrameworks>
+		<TargetFrameworks>netstandard2.1;net6.0;net7.0;net8.0;net9.0;net10.0</TargetFrameworks>
 		<Nullable>enable</Nullable>
-
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<Authors>Rob Lohmann</Authors>
+		<Copyright>2022 - 2026</Copyright>
 		<PackageIconUrl>https://github.com/roblohmann/CodeCube.ApplicationInsights.Extensions/blob/main/nuget-icon.png?raw=true</PackageIconUrl>
 		<PackageProjectUrl>https://github.com/roblohmann/CodeCube.ApplicationInsights.Extensions</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/roblohmann/CodeCube.ApplicationInsights.Extensions</RepositoryUrl>

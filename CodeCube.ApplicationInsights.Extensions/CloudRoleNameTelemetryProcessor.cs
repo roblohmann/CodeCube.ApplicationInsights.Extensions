@@ -1,10 +1,24 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using OpenTelemetry;
+using System;
+using System.Diagnostics;
 
 namespace CodeCube.ApplicationInsights.Extensions
 {
-    internal class CloudRoleNameTelemetryProcessor
+    public sealed class CloudRoleNameTelemetryProcessor : BaseProcessor<Activity>
     {
+        private readonly string _serviceName;
+
+        public CloudRoleNameTelemetryProcessor(CloudRoleNameTelemetryOptions options)
+        {
+            if (options == null) throw new ArgumentNullException(nameof(options));
+
+            _serviceName = options.ServiceName;
+        }
+
+        public override void OnEnd(Activity activity)
+        {
+            // 'service.name' is de OpenTelemetry standaard voor Cloud Role Name
+            activity.SetTag("service.name", _serviceName);
+        }
     }
 }

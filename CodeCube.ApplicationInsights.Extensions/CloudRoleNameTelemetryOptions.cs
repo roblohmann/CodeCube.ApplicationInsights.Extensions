@@ -2,6 +2,6 @@
 {
     public sealed class CloudRoleNameTelemetryOptions
     {
-        public string RoleName { get; set; }
+        public required string ServiceName { get; set; }
     }
 }

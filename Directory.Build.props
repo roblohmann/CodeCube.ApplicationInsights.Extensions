@@ -7,6 +7,7 @@
     <PackageProjectUrl>https://github.com/roblohmann/CodeCube.ApplicationInsights.Extensions</PackageProjectUrl>
     <RepositoryUrl>https://github.com/roblohmann/CodeCube.ApplicationInsights.Extensions</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
+    <VersionPrefix>2.0.2</VersionPrefix>
   </PropertyGroup>
 
 </Project>
